@@ -1,0 +1,183 @@
+PODS:
+  - ActiveLabel (0.6.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (3.5.1)
+  - AlamofireImage (2.5.0):
+    - Alamofire (~> 3.5)
+  - BadgeSwift (4.0.0)
+  - CarbonKit (2.1.7)
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - FirebaseAnalytics (3.6.0):
+    - FirebaseCore (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.4.6):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.8)
+  - Google/Core (3.0.3):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.0.3):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleAppUtilities (1.1.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSignIn (4.0.1):
+    - GoogleAppUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleToolboxForMac/DebugUtils (2.1.0):
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+  - GoogleToolboxForMac/Defines (2.1.0)
+  - GoogleToolboxForMac/NSData+zlib (2.1.0):
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.0):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.0)
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.0)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.0)
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.7):
+    - GTMSessionFetcher/Full (= 1.1.7)
+  - GTMSessionFetcher/Core (1.1.7)
+  - GTMSessionFetcher/Full (1.1.7):
+    - GTMSessionFetcher/Core (= 1.1.7)
+  - IQKeyboardManagerSwift (4.0.4)
+  - KMPlaceholderTextView (1.2.0)
+  - MRProgress (0.8.3):
+    - MRProgress/ActivityIndicator (= 0.8.3)
+    - MRProgress/Blur (= 0.8.3)
+    - MRProgress/Circular (= 0.8.3)
+    - MRProgress/Icons (= 0.8.3)
+    - MRProgress/NavigationBarProgress (= 0.8.3)
+    - MRProgress/Overlay (= 0.8.3)
+  - MRProgress/ActivityIndicator (0.8.3):
+    - MRProgress/Stopable
+  - MRProgress/AFNetworking (0.8.3):
+    - MRProgress/AFNetworking/ActivityIndicator (= 0.8.3)
+    - MRProgress/AFNetworking/Base (= 0.8.3)
+    - MRProgress/AFNetworking/Circular (= 0.8.3)
+    - MRProgress/AFNetworking/NavigationBarProgress (= 0.8.3)
+    - MRProgress/AFNetworking/Overlay (= 0.8.3)
+    - MRProgress/AFNetworking/ProgressBaseClass (= 0.8.3)
+  - MRProgress/AFNetworking/ActivityIndicator (0.8.3):
+    - MRProgress/ActivityIndicator
+    - MRProgress/AFNetworking/Base
+  - MRProgress/AFNetworking/Base (0.8.3):
+    - AFNetworking (~> 2.6.3)
+    - AFNetworking/UIKit
+    - MRProgress/MethodCopier
+  - MRProgress/AFNetworking/Circular (0.8.3):
+    - MRProgress/AFNetworking/ProgressBaseClass
+  - MRProgress/AFNetworking/NavigationBarProgress (0.8.3):
+    - MRProgress/AFNetworking/ProgressBaseClass
+  - MRProgress/AFNetworking/Overlay (0.8.3):
+    - MRProgress/AFNetworking/ActivityIndicator
+    - MRProgress/AFNetworking/Base
+    - MRProgress/AFNetworking/Circular
+    - MRProgress/Overlay
+  - MRProgress/AFNetworking/ProgressBaseClass (0.8.3):
+    - MRProgress/AFNetworking/Base
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Blur (0.8.3):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.3):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.3)
+  - MRProgress/Icons (0.8.3)
+  - MRProgress/MethodCopier (0.8.3)
+  - MRProgress/NavigationBarProgress (0.8.3):
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Overlay (0.8.3):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.3)
+  - MRProgress/Stopable (0.8.3):
+    - MRProgress/Helper
+  - OneSignal (2.3.4)
+  - RichEditorView (3.2.0)
+  - Siren (0.9.5)
+  - Toucan (0.5.0)
+
+DEPENDENCIES:
+  - ActiveLabel (~> 0.6.0)
+  - AlamofireImage (~> 2.0)
+  - BadgeSwift (~> 4.0)
+  - CarbonKit (~> 2.1)
+  - Crashlytics
+  - Fabric
+  - Google/SignIn
+  - IQKeyboardManagerSwift
+  - KMPlaceholderTextView (~> 1.2.0)
+  - MRProgress
+  - MRProgress/AFNetworking
+  - OneSignal
+  - RichEditorView
+  - Siren (= 0.9.5)
+  - Toucan (~> 0.5)
+
+SPEC CHECKSUMS:
+  ActiveLabel: ec8c7a0995ab2d789ab74b72b105397dc079ff97
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  AlamofireImage: 2d34936e5201270bb17a316a786e90e83b4a249d
+  BadgeSwift: b291cf8ca88674d61cd781f14988272988f4dff4
+  CarbonKit: 88f90b6290af1306c82fd5ba8d2aa4dd19e08083
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  FirebaseAnalytics: 9c67af0ebeb8d2146c9b4ea2616439affa947b58
+  FirebaseCore: 03da1cb32615569bbc2830a22f9ad753d9a02ef5
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  Google: 813c467362eabc11385f5a5cc9ad0cb651a58f4e
+  GoogleAppUtilities: a8a552aa74f6597f805e45b5a3962766c3134973
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleSignIn: a8694c0a8e6d1b0ec77c58014de5bfd4ba2fa766
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
+  GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
+  GTMSessionFetcher: a1f8ed39e4fe21c68957daed472c7afbcdf29166
+  IQKeyboardManagerSwift: e0964d04d6a29b71016fd346dca13ecb80a2823a
+  KMPlaceholderTextView: cae8ee889bd38d20587eee6b2623b8218f31b8f5
+  MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
+  OneSignal: c8f0d08ffa30fcf751c97a29639725877027e788
+  RichEditorView: b4ee60a4f5301cbe8f3fcb1f065cdd7de74ddd10
+  Siren: a536a4fed41def10e540a9804b2a63a4b3634f6b
+  Toucan: 0519c341148252ae114c5a657d2a85bb9ada9e40
+
+PODFILE CHECKSUM: cea2147c76ae38592646f6096687dc81e9771378
+
+COCOAPODS: 1.1.1
