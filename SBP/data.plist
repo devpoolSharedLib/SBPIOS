@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>urlDomainHttp</key>
-	<string>http://sbpprd.au-syd.mybluemix.net/</string>
+	<string>http://sbpdev.au-syd.mybluemix.net/</string>
 	<key>urlDomainHttps</key>
-	<string>https://sbpprd.au-syd.mybluemix.net/</string>
+	<string>https://sbpdev.au-syd.mybluemix.net/</string>
 	<key>contexroot</key>
 	<string>SBPWebService/</string>
 	<key>versionServer</key>
@@ -17,7 +17,7 @@
 	<key>clientSecret</key>
 	<string>f1b7da23-fe5e-40d4-99b5-ca39eaae8b35</string>
 	<key>appID_Prd</key>
-	<string>dbc694b3-14cb-4e5b-9a56-f7c167572ccb</string>
+	<string>615eda0f-4c69-496d-b449-2d23ccb2c2fa</string>
 	<key>appID_Dev</key>
 	<string>a1690682-812c-4276-8a6c-85fe4e6f5e76</string>
 </dict>
