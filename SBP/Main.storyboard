@@ -81,8 +81,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Terms &amp; Policies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7O-pZ-wPm">
-                                                    <rect key="frame" x="18" y="0.0" width="345" height="43.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7O-pZ-wPm" userLabel="About">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -90,7 +90,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="f6b-FO-v9m" kind="show" id="lXe-eX-eoR"/>
+                                            <segue destination="aQF-i1-gcS" kind="show" id="RFu-4N-0R4"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="PYS-oO-amc" style="IBUITableViewCellStyleDefault" id="ZoX-7Q-R87">
@@ -255,7 +255,7 @@
                         <viewControllerLayoutGuide type="bottom" id="u3M-vi-Ph9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Iqb-OK-iAg">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u6a-iP-aMD">
@@ -1254,7 +1254,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="391" height="118"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="39" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" misplaced="YES" text="commentTime" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kpp-pi-PpE">
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="39" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="commentTime" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kpp-pi-PpE">
                                                     <rect key="frame" x="61" y="32" width="305" height="32"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                     <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -1299,7 +1299,7 @@
                                                         <action selector="commentSelectButton:" destination="ZJu-wa-f5d" eventType="touchUpInside" id="UBk-7a-LSy"/>
                                                     </connections>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="36" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDN-Rg-JfL" customClass="ActiveLabel" customModule="ActiveLabel">
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="36" contentMode="left" horizontalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDN-Rg-JfL" customClass="ActiveLabel" customModule="ActiveLabel">
                                                     <rect key="frame" x="61" y="72" width="311" height="21"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="commentContent">
@@ -2128,12 +2128,158 @@
             </objects>
             <point key="canvasLocation" x="912.5" y="1812.5"/>
         </scene>
+        <!--About-->
+        <scene sceneID="Ihi-uL-JP5">
+            <objects>
+                <viewController title="About" id="aQF-i1-gcS" customClass="AboutPageViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vz7-FM-UQU"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Y5-cg-CKT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hTn-vZ-O1P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="go10_icon" translatesAutoresizingMaskIntoConstraints="NO" id="obu-oE-o9B">
+                                <rect key="frame" x="47" y="62" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="frm-s4-dhd"/>
+                                    <constraint firstAttribute="width" constant="100" id="kAk-YT-1Vk"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="version x.x.x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uun-fs-TXS" userLabel="versionNameLbl">
+                                <rect key="frame" x="173" y="124" width="104" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.43921568630000002" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5H8-LJ-vfR" userLabel="copyRightsTxtview">
+                                <rect key="frame" x="47" y="214" width="297" height="86"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="GO">
+                                        <attributes>
+                                            <color key="NSColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="๑๐">
+                                        <attributes>
+                                            <color key="NSColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="15" name="Thonburi"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" Application and the GO">
+                                        <attributes>
+                                            <color key="NSColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="๑๐">
+                                        <attributes>
+                                            <color key="NSColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="15" name="Thonburi"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> logos are trademarks of Gosoft(Thailand) Limited. 
+All rights reserved.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nzd-eY-ql1" userLabel="Terms &amp; Policies Btn">
+                                <rect key="frame" x="47" y="349" width="297" height="30"/>
+                                <state key="normal" title="Terms &amp; Policies">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="f6b-FO-v9m" kind="show" id="WaR-cj-lyG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zpp-xs-q2q" userLabel="appNameLbl">
+                                <rect key="frame" x="173" y="86" width="171" height="25"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="GO">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="๑๐">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="Thonburi"/>
+                                            <font key="NSOriginalFont" size="19" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" Application">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Nzd-eY-ql1" secondAttribute="trailing" constant="11" id="1Yt-cE-JUz"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="obu-oE-o9B" secondAttribute="leading" constant="-27" id="5Bz-oi-RPR"/>
+                            <constraint firstItem="1Y5-cg-CKT" firstAttribute="top" secondItem="Nzd-eY-ql1" secondAttribute="bottom" constant="293" id="8UR-QA-0lN"/>
+                            <constraint firstItem="Uun-fs-TXS" firstAttribute="top" secondItem="Zpp-xs-q2q" secondAttribute="bottom" constant="13" id="DDf-cF-62a"/>
+                            <constraint firstItem="obu-oE-o9B" firstAttribute="top" secondItem="vz7-FM-UQU" secondAttribute="bottom" constant="42" id="LCy-cV-r7p"/>
+                            <constraint firstItem="1Y5-cg-CKT" firstAttribute="top" secondItem="Nzd-eY-ql1" secondAttribute="bottom" constant="288" id="Vlt-Y6-em3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zpp-xs-q2q" secondAttribute="trailing" constant="20" id="eNd-Yx-TfU"/>
+                            <constraint firstItem="Nzd-eY-ql1" firstAttribute="top" secondItem="5H8-LJ-vfR" secondAttribute="bottom" constant="49" id="f8Z-jM-nz0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zpp-xs-q2q" secondAttribute="trailing" constant="11" id="fHL-CI-24R"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zpp-xs-q2q" secondAttribute="trailing" constant="11" id="fIV-7E-TA9"/>
+                            <constraint firstItem="Zpp-xs-q2q" firstAttribute="top" secondItem="vz7-FM-UQU" secondAttribute="bottom" constant="66" id="ghW-nG-WKX"/>
+                            <constraint firstItem="5H8-LJ-vfR" firstAttribute="top" secondItem="obu-oE-o9B" secondAttribute="bottom" constant="52" id="j77-j0-jm1"/>
+                            <constraint firstItem="Uun-fs-TXS" firstAttribute="leading" secondItem="obu-oE-o9B" secondAttribute="trailing" constant="26" id="lIg-bw-5G5"/>
+                            <constraint firstItem="Nzd-eY-ql1" firstAttribute="leading" secondItem="hTn-vZ-O1P" secondAttribute="leadingMargin" constant="27" id="lK1-dq-odP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5H8-LJ-vfR" secondAttribute="trailing" constant="11" id="lf5-W7-3Lu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Uun-fs-TXS" secondAttribute="trailing" constant="78" id="owB-2Z-fKk"/>
+                            <constraint firstItem="Zpp-xs-q2q" firstAttribute="leading" secondItem="obu-oE-o9B" secondAttribute="trailing" constant="26" id="pyU-dp-DMT"/>
+                            <constraint firstItem="5H8-LJ-vfR" firstAttribute="leading" secondItem="hTn-vZ-O1P" secondAttribute="leadingMargin" constant="27" id="r7M-0z-vTa"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="eNd-Yx-TfU"/>
+                                <exclude reference="fIV-7E-TA9"/>
+                                <exclude reference="8UR-QA-0lN"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="appNameLbl" destination="Zpp-xs-q2q" id="PnA-q6-Phl"/>
+                        <outlet property="copyRightsTxtView" destination="5H8-LJ-vfR" id="3ed-rB-NRf"/>
+                        <outlet property="gotoTermBtn" destination="Nzd-eY-ql1" id="rxb-w6-gY4"/>
+                        <outlet property="versionNameLbl" destination="Uun-fs-TXS" id="8wk-gy-zDS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xFX-88-y5M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1415.5" y="-1401.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Log in with Facebook" width="632" height="139"/>
         <image name="Sign in" width="316" height="133"/>
         <image name="countAcceptPoll" width="64" height="64"/>
         <image name="general" width="512" height="512"/>
+        <image name="go10_icon" width="512" height="512"/>
         <image name="home" width="24" height="24"/>
         <image name="ic_send" width="22" height="22"/>
         <image name="ic_settings" width="22" height="22"/>
@@ -2142,12 +2288,12 @@
         <image name="selfordel" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="K1T-4J-Dfj"/>
         <segue reference="K7P-Kb-tXj"/>
+        <segue reference="K1T-4J-Dfj"/>
         <segue reference="g0h-69-Pdz"/>
         <segue reference="vkn-R5-Eqh"/>
-        <segue reference="Yon-P0-l0i"/>
-        <segue reference="Xau-Sn-SRF"/>
+        <segue reference="IVH-9Q-YBp"/>
         <segue reference="Y3h-AS-Iw1"/>
+        <segue reference="Yon-P0-l0i"/>
     </inferredMetricsTieBreakers>
 </document>
