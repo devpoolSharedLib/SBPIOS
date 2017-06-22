@@ -106,7 +106,7 @@
 		75FC7A6410ABCF681C4E5FB0 /* Pods_SBPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85FB82FE220188F347237C4B /* Pods-SBP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SBP/Pods-SBP.debug.xcconfig"; sourceTree = "<group>"; };
 		92AECA92B167F8E0BCBC7ED7 /* Pods_GO10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GO10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A606EFD31CE18B95000372FD /* SBP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A606EFD31CE18B95000372FD /* SBP Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SBP Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A606EFD61CE18B95000372FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A606EFDD1CE18B95000372FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A606EFE01CE18B95000372FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -248,7 +248,7 @@
 		A606EFD41CE18B95000372FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A606EFD31CE18B95000372FD /* SBP.app */,
+				A606EFD31CE18B95000372FD /* SBP Board.app */,
 				A606EFE71CE18B95000372FD /* SBP.xctest */,
 				A606EFF21CE18B95000372FD /* SBP.xctest */,
 			);
@@ -332,7 +332,7 @@
 			);
 			name = SBP;
 			productName = GO10;
-			productReference = A606EFD31CE18B95000372FD /* SBP.app */;
+			productReference = A606EFD31CE18B95000372FD /* SBP Board.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A606EFE61CE18B95000372FD /* SBPTests */ = {
@@ -798,7 +798,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = th.co.gosoft.sbps;
-				PRODUCT_NAME = SBP;
+				PRODUCT_NAME = "SBP Board";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SBP-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -822,7 +822,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = th.co.gosoft.sbps;
-				PRODUCT_NAME = SBP;
+				PRODUCT_NAME = "SBP Board";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SBP-Bridging-Header.h";
 			};

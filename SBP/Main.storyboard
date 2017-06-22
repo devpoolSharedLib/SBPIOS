@@ -11,7 +11,7 @@
         <!--Setting-->
         <scene sceneID="1mS-pc-jbO">
             <objects>
-                <tableViewController title="Setting" id="2pV-Xs-q2L" customClass="SettingTableViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Setting" id="2pV-Xs-q2L" customClass="SettingTableViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="jOm-QA-E5W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,8 +81,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7O-pZ-wPm" userLabel="About">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7O-pZ-wPm" userLabel="About">
+                                                    <rect key="frame" x="15" y="-1" width="345" height="43.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -134,7 +134,7 @@
         <!--Edit Avatar-->
         <scene sceneID="xyI-r9-IUA">
             <objects>
-                <tableViewController title="Edit Avatar" id="EGY-dy-f3r" customClass="EditAvatarTableViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Edit Avatar" id="EGY-dy-f3r" customClass="EditAvatarTableViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="YfJ-xC-CTh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -249,7 +249,7 @@
         <!--Avatar Name-->
         <scene sceneID="OPC-og-OHn">
             <objects>
-                <viewController title="Avatar Name" id="dwF-D3-gfy" customClass="EditAvatarNameViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Avatar Name" id="dwF-D3-gfy" customClass="EditAvatarNameViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="d4V-TP-hOM"/>
                         <viewControllerLayoutGuide type="bottom" id="u3M-vi-Ph9"/>
@@ -314,7 +314,7 @@
         <!--Select Room-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Select Room" id="BYZ-38-t0r" customClass="SelectRoomViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Select Room" id="BYZ-38-t0r" customClass="SelectRoomViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -555,7 +555,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="GO๑๐" id="WN9-3H-kvH">
+                    <navigationItem key="navigationItem" title="SBP Board" id="WN9-3H-kvH">
                         <barButtonItem key="rightBarButtonItem" image="ic_settings" width="50" id="LkS-D7-qc5">
                             <connections>
                                 <segue destination="2pV-Xs-q2L" kind="show" id="GkO-V8-b6y"/>
@@ -581,7 +581,7 @@
         <!--MainUI Navigation Controller-->
         <scene sceneID="kW3-7c-6mf">
             <objects>
-                <navigationController storyboardIdentifier="mainVCID" automaticallyAdjustsScrollViewInsets="NO" id="dK6-LL-q4b" customClass="MainUINavigationController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="mainVCID" automaticallyAdjustsScrollViewInsets="NO" id="dK6-LL-q4b" customClass="MainUINavigationController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mka-b8-aga">
@@ -603,7 +603,7 @@
         <!--Verify Token-->
         <scene sceneID="LB5-Zc-LsU">
             <objects>
-                <viewController title="Verify Token" id="l6h-Yp-nQz" customClass="VerifyTokenViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Verify Token" id="l6h-Yp-nQz" customClass="VerifyTokenViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rsQ-qH-r3h"/>
                         <viewControllerLayoutGuide type="bottom" id="FOb-hk-KHj"/>
@@ -670,7 +670,7 @@
         <!--Login FB-->
         <scene sceneID="Y9x-Xe-D6A">
             <objects>
-                <viewController storyboardIdentifier="LoginFBVCID" title="Login FB" id="Eth-Z2-a12" customClass="LoginViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginFBVCID" title="Login FB" id="Eth-Z2-a12" customClass="LoginViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Ww-CA-b4d"/>
                         <viewControllerLayoutGuide type="bottom" id="oEW-H3-dh9"/>
@@ -742,7 +742,7 @@
         <!--Select Avatar-->
         <scene sceneID="cK5-Tx-2iG">
             <objects>
-                <viewController title="Select Avatar" id="vEz-cL-QrJ" customClass="SelectAvatarViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Select Avatar" id="vEz-cL-QrJ" customClass="SelectAvatarViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tvv-nf-yQh"/>
                         <viewControllerLayoutGuide type="bottom" id="4e9-Cp-VPj"/>
@@ -774,7 +774,7 @@
         <!--Rules-->
         <scene sceneID="cCk-Kh-iZa">
             <objects>
-                <viewController title="Terms &amp; Policies" id="f6b-FO-v9m" userLabel="Rules" customClass="RulesViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Terms &amp; Policies" id="f6b-FO-v9m" userLabel="Rules" customClass="RulesViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bAP-Jl-fnW"/>
                         <viewControllerLayoutGuide type="bottom" id="tuc-On-X29"/>
@@ -831,7 +831,7 @@
         <!--Women Avatar View Controller-->
         <scene sceneID="JcF-oO-YzE">
             <objects>
-                <viewController storyboardIdentifier="WomenAvatarVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tt6-hq-wU3" customClass="WomenAvatarViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WomenAvatarVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tt6-hq-wU3" customClass="WomenAvatarViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oQP-o3-d9k"/>
                         <viewControllerLayoutGuide type="bottom" id="nZI-bc-V1M"/>
@@ -908,7 +908,7 @@
         <!--Men Avatar View Controller-->
         <scene sceneID="OmG-nM-8aT">
             <objects>
-                <viewController storyboardIdentifier="MenAvatarVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Dzb-ue-E9h" customClass="MenAvatarViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenAvatarVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Dzb-ue-E9h" customClass="MenAvatarViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n5m-T8-7gW"/>
                         <viewControllerLayoutGuide type="bottom" id="xzG-sE-htg"/>
@@ -968,7 +968,7 @@
         <!--BoardContent-->
         <scene sceneID="RdM-Em-HgM">
             <objects>
-                <viewController storyboardIdentifier="boardContentVCID" title="BoardContent" automaticallyAdjustsScrollViewInsets="NO" id="ZJu-wa-f5d" customClass="BoardcontentViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="boardContentVCID" title="BoardContent" automaticallyAdjustsScrollViewInsets="NO" id="ZJu-wa-f5d" customClass="BoardcontentViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6oh-Jx-25g"/>
                         <viewControllerLayoutGuide type="bottom" id="kmn-V8-RdE"/>
@@ -1400,7 +1400,7 @@
         <!--CommentPage-->
         <scene sceneID="kQP-5T-ZD8">
             <objects>
-                <viewController title="CommentPage" automaticallyAdjustsScrollViewInsets="NO" id="7yV-bL-1qI" customClass="CommentViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="CommentPage" automaticallyAdjustsScrollViewInsets="NO" id="7yV-bL-1qI" customClass="CommentViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9Vl-oc-H8Y"/>
                         <viewControllerLayoutGuide type="bottom" id="NWL-Xi-TYb"/>
@@ -1477,7 +1477,7 @@
         <!--New Topic-->
         <scene sceneID="ycQ-SL-H2s">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="XMC-L0-Y3c" customClass="NewTopicViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="XMC-L0-Y3c" customClass="NewTopicViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VWx-Cg-dR5"/>
                         <viewControllerLayoutGuide type="bottom" id="kgE-8h-CJa"/>
@@ -1569,7 +1569,7 @@
         <!--Room-->
         <scene sceneID="sLA-ed-rmm">
             <objects>
-                <viewController title="Room" id="KIM-Uk-AiS" customClass="RoomViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Room" id="KIM-Uk-AiS" customClass="RoomViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hp9-AZ-8MI"/>
                         <viewControllerLayoutGuide type="bottom" id="dSh-iD-IXi"/>
@@ -1837,7 +1837,7 @@
         <!--Login-->
         <scene sceneID="wFv-l9-xlG">
             <objects>
-                <viewController storyboardIdentifier="LoginVCID" title="Login" id="uiU-1g-wu5" customClass="LoginViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVCID" title="Login" id="uiU-1g-wu5" customClass="LoginViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CyY-nB-2fY"/>
                         <viewControllerLayoutGuide type="bottom" id="7sy-hj-Ad6"/>
@@ -1994,7 +1994,7 @@
         <!--Forgot Password-->
         <scene sceneID="V5I-vi-Ge8">
             <objects>
-                <viewController title="Forgot Password" id="ZKz-lX-Z27" customClass="ForgotPasswordViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Forgot Password" id="ZKz-lX-Z27" customClass="ForgotPasswordViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Dl2-Yb-PxU"/>
                         <viewControllerLayoutGuide type="bottom" id="SOb-1W-iEs"/>
@@ -2043,7 +2043,7 @@
         <!--Poll-->
         <scene sceneID="Wrv-rx-UfQ">
             <objects>
-                <viewController storyboardIdentifier="PollVCID" title="Poll" automaticallyAdjustsScrollViewInsets="NO" id="R4a-vW-5J0" userLabel="Poll" customClass="PollViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PollVCID" title="Poll" automaticallyAdjustsScrollViewInsets="NO" id="R4a-vW-5J0" userLabel="Poll" customClass="PollViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ivd-GO-JJp"/>
                         <viewControllerLayoutGuide type="bottom" id="KTA-1V-iWn"/>
@@ -2131,7 +2131,7 @@
         <!--About-->
         <scene sceneID="Ihi-uL-JP5">
             <objects>
-                <viewController title="About" id="aQF-i1-gcS" customClass="AboutPageViewController" customModule="SBP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="About" id="aQF-i1-gcS" customClass="AboutPageViewController" customModule="SBP_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vz7-FM-UQU"/>
                         <viewControllerLayoutGuide type="bottom" id="1Y5-cg-CKT"/>
@@ -2140,7 +2140,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="go10_icon" translatesAutoresizingMaskIntoConstraints="NO" id="obu-oE-o9B">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sbp_icon" translatesAutoresizingMaskIntoConstraints="NO" id="obu-oE-o9B">
                                 <rect key="frame" x="47" y="62" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="frm-s4-dhd"/>
@@ -2153,50 +2153,6 @@
                                 <color key="textColor" red="0.43921568630000002" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5H8-LJ-vfR" userLabel="copyRightsTxtview">
-                                <rect key="frame" x="47" y="214" width="297" height="86"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="GO">
-                                        <attributes>
-                                            <color key="NSColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="๑๐">
-                                        <attributes>
-                                            <color key="NSColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="15" name="Thonburi"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" Application and the GO">
-                                        <attributes>
-                                            <color key="NSColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="๑๐">
-                                        <attributes>
-                                            <color key="NSColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="15" name="Thonburi"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> logos are trademarks of Gosoft(Thailand) Limited. 
-All rights reserved.</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nzd-eY-ql1" userLabel="Terms &amp; Policies Btn">
                                 <rect key="frame" x="47" y="349" width="297" height="30"/>
                                 <state key="normal" title="Terms &amp; Policies">
@@ -2209,7 +2165,7 @@ All rights reserved.</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zpp-xs-q2q" userLabel="appNameLbl">
                                 <rect key="frame" x="173" y="86" width="171" height="25"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="SBP Application">
+                                    <fragment content="SBP Board">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="18" name="HelveticaNeue"/>
@@ -2219,6 +2175,22 @@ All rights reserved.</string>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5H8-LJ-vfR" userLabel="copyRightsTxtview">
+                                <rect key="frame" x="47" y="214" width="297" height="86"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">SBP Board and the SBP logos are trademarks of Gosoft(Thailand) Limited. 
+All rights reserved.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -2267,21 +2239,21 @@ All rights reserved.</string>
         <image name="Sign in" width="316" height="133"/>
         <image name="countAcceptPoll" width="64" height="64"/>
         <image name="general" width="512" height="512"/>
-        <image name="go10_icon" width="512" height="512"/>
         <image name="home" width="24" height="24"/>
         <image name="ic_send" width="22" height="22"/>
         <image name="ic_settings" width="22" height="22"/>
         <image name="like" width="64" height="64"/>
         <image name="logo" width="768" height="248"/>
+        <image name="sbp_icon" width="512" height="512"/>
         <image name="selfordel" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Yon-P0-l0i"/>
         <segue reference="K7P-Kb-tXj"/>
         <segue reference="K1T-4J-Dfj"/>
-        <segue reference="g0h-69-Pdz"/>
+        <segue reference="GkO-V8-b6y"/>
         <segue reference="vkn-R5-Eqh"/>
         <segue reference="IVH-9Q-YBp"/>
         <segue reference="Y3h-AS-Iw1"/>
-        <segue reference="Yon-P0-l0i"/>
     </inferredMetricsTieBreakers>
 </document>
