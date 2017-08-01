@@ -182,8 +182,8 @@ class SelectRoomViewController: UIViewController,UITableViewDataSource ,UITableV
         
         let roomID = bean.valueForKey("roomId") as! String
         
-        if(RoomModelUtil.roomImageName.valueForKey(roomID) != nil){
-            topicImg.image = RoomModelUtil.roomImageName.valueForKey(roomID) as? UIImage
+        if(UIImage(named: roomID) != nil){
+            topicImg.image = UIImage(named: roomID)
         }
         else{
             let picUrl = self.downloadObjectStorageUrl + roomID + ".png"
@@ -228,8 +228,8 @@ class SelectRoomViewController: UIViewController,UITableViewDataSource ,UITableV
             badgeNumberLbl.text = "\(badgeNumber!)"
         }
         
-        if(RoomModelUtil.roomImageName.valueForKey(roomID!) != nil){
-            roomImg.image = RoomModelUtil.roomImageName.valueForKey(roomID!) as? UIImage
+        if(UIImage(named: roomID!) != nil){
+            roomImg.image = UIImage(named: roomID!)
             roomTitle.text = beanRoom.valueForKey("name") as? String
         }
         else{

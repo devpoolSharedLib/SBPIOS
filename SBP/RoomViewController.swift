@@ -53,8 +53,8 @@ class RoomViewController: UIViewController, UITableViewDataSource, UITableViewDe
             self.roomName = receiveRoomList.valueForKey("name") as! String
             lblRoom.text = roomName
             
-            if(RoomModelUtil.roomImageName.valueForKey(roomId!) != nil){
-                self.imgView.image = RoomModelUtil.roomImageName.valueForKey(roomId!) as? UIImage
+            if(UIImage(named: roomId!) != nil){
+                self.imgView.image = UIImage(named: roomId!)
             }
             else{
                 let picUrl = self.downloadObjectStorageUrl + roomId! + ".png"
